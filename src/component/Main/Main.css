@@ -1,0 +1,137 @@
+.slideshow {
+  overflow: hidden;
+}
+
+.slider {
+  padding-top: 4.5rem;
+  white-space: nowrap;
+  width: 100%;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+div.one {
+  width: 100%;
+  height: 90vh;
+  display: inline-block;
+}
+
+.dishes-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0;
+  width: 90%;
+  height: 90vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dishes-div .dishes {
+  width: 50%;
+  margin-left: 4rem;
+}
+
+.dishes-div .dishes h3 {
+  font-size: 17px;
+  color: green;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.dishes-div .dishes h1 {
+  color: #3d11b6;
+  margin: .8rem 0;
+}
+
+.dishes-div .dishes p {
+  line-height: 1.3;
+  color: #5a5861;
+  margin-bottom: .8rem;
+  white-space: pre-wrap;
+}
+
+.dishes-div .dishes button {
+  padding: .5rem 1.4rem;
+  font-size: 15px;
+  color: white;
+  background: #1f1049;
+  border: none;
+  outline: none;
+  border-radius: .3rem;
+}
+
+.dishes-div .img-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dishes-div .img-div img {
+  width: 800px;
+}
+
+div.dots {
+  position: absolute;
+  bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+}
+
+div.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-left: .4rem;
+  cursor: pointer;
+}
+
+div.active {
+  background-color: purple;
+  -webkit-transition: all 1.2s ease-in-out;
+  transition: all 1.2s ease-in-out;
+}
+
+@media (max-width: 1500px) {
+  .dishes-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 90vh;
+  }
+  .dishes-div .dishes {
+    width: 100%;
+    margin-left: 4rem;
+  }
+  .dishes-div .img-div {
+    width: 70%;
+  }
+  .dishes-div .img-div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 900px) {
+  .dishes-div .dishes {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .dishes-div .img-div {
+    width: 50%;
+  }
+  .dishes-div .img-div img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

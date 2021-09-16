@@ -1,0 +1,132 @@
+.slideshow {
+    overflow: hidden;
+}
+.slider {
+    padding-top: 4.5rem;
+    white-space: nowrap;
+    width: 100%;
+    transition: all 2s ease-in-out;
+}
+div.one{
+    width: 100%;
+    height: 90vh;
+    display: inline-block;
+}
+
+.dishes-div {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    width: 90%;
+    height: 90vh;
+    justify-content: center;
+    .dishes {
+        width: 50%;
+        margin-left: 4rem;
+        h3 {
+            font-size: 17px;
+            color: green;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+
+        h1 {
+            color: rgb(61, 17, 182);
+            margin: .8rem 0;
+        }
+        p {
+            line-height: 1.3;
+            color:rgb(90, 88, 97);
+            margin-bottom: .8rem;
+            white-space: pre-wrap;
+        }
+        button {
+                padding: .5rem 1.4rem;
+                font-size: 15px;
+                color: white;
+                background: rgb(31, 16, 73);
+                border: none;
+                outline: none;
+                border-radius: .3rem;
+                
+            }
+    
+    }
+    .img-div {
+        flex: 1;
+
+        img {
+            width: 800px;
+        }
+    }
+    
+}
+
+
+div.dots {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    left:50%;
+}
+
+div.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: .4rem;
+    cursor: pointer;
+
+}
+div.active {
+    background-color: purple;
+    transition: all 1.2s ease-in-out;
+
+}
+
+
+$break-point-one: 1500px;
+$break-point-two: 900px;
+
+
+ 
+@media (max-width: $break-point-one){
+    .dishes-div {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+            .dishes {
+            width: 100%;
+            margin-left: 4rem;
+            }
+        .img-div {
+           width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+@media(max-width: $break-point-one) and (min-width: $break-point-two){
+    .dishes-div {
+        .dishes {
+            width: 100%;
+            margin-left: 2rem;
+        }
+        .img-div {
+           width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+
+
+
+

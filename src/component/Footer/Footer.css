@@ -1,0 +1,21 @@
+div.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e7e7e7;
+  padding-top: 2rem;
+  color: #b108b1;
+}
+
+div.footer div.icons-img a, div.footer img {
+  margin: .5rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,53 @@
+// .slideshow {
+//     margin: 0 auto;
+//     overflow: hidden;
+//     max-width: 100%;
+// }
+
+// .slideshowSlider{
+//     white-space: nowrap;
+//     transition: ease 1s;
+// }
+
+// .slide {
+//     display: inline-block;
+//     width: 100%;
+//     margin-top: 100px;
+//     height: 80vh;
+//     border-radius: 40px;
+// }
+
+// .dishes-div {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly;
+// }
+//      .dishes {
+//     flex: 1;
+// }
+
+// .dishes-div img {
+//     width: 500px;
+//     flex: 1;
+// }
+
+// //button
+
+// .slideshowDots {
+//     text-align: center;
+// }
+
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #c4c4c4;
+    margin: 15px 7px 0; 
+
+}
+
+div.slideshowDot.active {
+    background-color: purple;
+}

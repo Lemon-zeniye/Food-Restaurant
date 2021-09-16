@@ -1,0 +1,101 @@
+section.section-three {
+  padding-top: 3rem;
+}
+
+section.section-three .customer-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  font-size: large;
+}
+
+section.section-three .customer-title p {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section.section-three .customer-title h1 {
+  color: #01012c;
+  padding-top: .5rem;
+}
+
+section.section-three .container {
+  width: 70%;
+  overflow: scroll;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem auto;
+  cursor: pointer;
+  min-height: 45vh;
+}
+
+section.section-three .container::-webkit-scrollbar {
+  display: none;
+}
+
+section.section-three .container .card-container {
+  white-space: nowrap;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+section.section-three .container .card-container .card {
+  white-space: pre-wrap;
+  display: inline-block;
+  -webkit-box-shadow: 1px 1px 12px 3px #dad2d2;
+          box-shadow: 1px 1px 12px 3px #dad2d2;
+  border: 1px solid #e6e5e5;
+  margin: 0 1.1rem;
+  width: 350px;
+  height: 270px;
+}
+
+section.section-three .container .card-container .card div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+}
+
+section.section-three .container .card-container .card div img {
+  margin-left: .3rem;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+section.section-three .container .card-container .card div p {
+  font-weight: bold;
+  color: #000038;
+  padding: .3rem;
+}
+
+section.section-three .container .card-container .card p {
+  padding-top: .5rem;
+  line-height: 1.7;
+  padding: 0 .5rem 2rem 1rem;
+  color: #929191;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=Customers.css.map */

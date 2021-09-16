@@ -1,0 +1,218 @@
+section.section-two {
+  background-color: white;
+  min-height: 80vh;
+  padding-top: 3rem;
+}
+
+section.section-two div.aboutUs-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5rem;
+}
+
+section.section-two div.aboutUs-title p {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+section.section-two div.aboutUs-title h1 {
+  padding-top: .3rem;
+  color: rgba(3, 3, 90, 0.788);
+}
+
+div.Us-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 60vh;
+}
+
+div.Us-container .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Us-container .img img {
+  width: 63%;
+  padding-top: 1rem;
+}
+
+div.Us-container .discripton {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+  padding-top: 3rem;
+  width: 80%;
+}
+
+div.Us-container .discripton h1 {
+  font-size: 35px;
+  font-family: cursive;
+  color: #000053;
+  margin-bottom: 1rem;
+}
+
+div.Us-container .discripton .paragraph {
+  width: 85%;
+}
+
+div.Us-container .discripton .paragraph p {
+  line-height: 2;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+
+div.Us-container .discripton .buttons {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.Us-container .discripton .buttons button {
+  background-color: #f0efef;
+  padding: 1rem 3rem;
+  color: #5f5f5f;
+  font-size: 15px;
+  border: 1px solid lightgrey;
+  border-radius: .3rem;
+  font-weight: bold;
+}
+
+div.Us-container .discripton button.learn {
+  padding: .7rem 2rem;
+  background-color: #000030;
+  color: white;
+  margin-top: 1rem;
+  border: none;
+  border-radius: .3rem;
+  font-size: 16px;
+}
+
+div.Us-container .discripton button.learn:hover {
+  background-color: #055205;
+  padding: .7rem 2.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  div.Us-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.Us-container .discripton {
+    width: 90%;
+  }
+  div.Us-container .discripton .paragraph {
+    width: 100%;
+  }
+  div.Us-container .discripton .buttons {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  div.Us-container .discripton .buttons button.b-one {
+    width: 45%;
+    margin-right: .5rem;
+  }
+  div.Us-container .discripton .buttons button.b-two {
+    width: 45%;
+    margin-left: .5rem;
+  }
+  div.Us-container .discripton .buttons button.b-three {
+    width: 93%;
+    margin-top: .5rem;
+  }
+  div.Us-container .img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 800px) {
+  div.Us-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.Us-container .discripton {
+    width: 90%;
+  }
+  div.Us-container .discripton .paragraph {
+    width: 100%;
+  }
+  div.Us-container .img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1150px) {
+  div.Us-container .img {
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
+  }
+  div.Us-container .img img {
+    padding-top: 2rem;
+  }
+  div.Us-container .discripton {
+    width: 100%;
+  }
+  div.Us-container .discripton .paragraph {
+    width: 95%;
+  }
+  div.Us-container .discripton .buttons {
+    width: 90%;
+  }
+  div.Us-container .discripton .buttons button {
+    padding: .7rem 2rem;
+  }
+}
+/*# sourceMappingURL=AboutUs.css.map */

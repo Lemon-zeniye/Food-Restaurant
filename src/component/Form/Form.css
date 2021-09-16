@@ -1,0 +1,158 @@
+section.section-Four {
+  min-height: 90vh;
+  background-color: #e7e7e7;
+}
+
+section.section-Four .form-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5rem;
+}
+
+section.section-Four .form-title p {
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+
+section.section-Four .form-title h1 {
+  padding-top: .5rem;
+  color: indigo;
+}
+
+section.section-Four .container-form {
+  width: 60%;
+  min-height: 85vh;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: .5rem;
+  -webkit-box-shadow: 1px 1px 4px 4px #d4d4d4;
+          box-shadow: 1px 1px 4px 4px #d4d4d4;
+}
+
+section.section-Four .container-form .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.section-Four .container-form .form-container form {
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section.section-Four .container-form .form-container form label {
+  display: block;
+  color: gray;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+section.section-Four .container-form .form-container form input {
+  width: 95%;
+  display: block;
+  margin-left: .3rem;
+  padding: .8rem .3rem;
+  background-color: #e7e7e7;
+  color: gray;
+  outline-color: green;
+  line-height: 1.5;
+  font-size: 1rem;
+  border: none;
+  border-radius: .3rem;
+}
+
+section.section-Four .container-form .form-container form input::-webkit-input-placeholder {
+  color: gray;
+  font-size: 1rem;
+}
+
+section.section-Four .container-form .form-container form input:-ms-input-placeholder {
+  color: gray;
+  font-size: 1rem;
+}
+
+section.section-Four .container-form .form-container form input::-ms-input-placeholder {
+  color: gray;
+  font-size: 1rem;
+}
+
+section.section-Four .container-form .form-container form input::placeholder {
+  color: gray;
+  font-size: 1rem;
+}
+
+section.section-Four .container-form .form-container form textarea {
+  border: none;
+  background-color: #e7e7e7;
+  border-radius: .3rem;
+  width: 95%;
+  height: 12rem;
+  color: gray;
+  outline-color: green;
+}
+
+section.section-Four .container-form .form-container form textarea::-webkit-input-placeholder {
+  font-size: 1rem;
+  padding: .4rem;
+}
+
+section.section-Four .container-form .form-container form textarea:-ms-input-placeholder {
+  font-size: 1rem;
+  padding: .4rem;
+}
+
+section.section-Four .container-form .form-container form textarea::-ms-input-placeholder {
+  font-size: 1rem;
+  padding: .4rem;
+}
+
+section.section-Four .container-form .form-container form textarea::placeholder {
+  font-size: 1rem;
+  padding: .4rem;
+}
+
+section.section-Four .container-form button.form-button {
+  margin: .5rem;
+  background-color: #37035c;
+  padding: .6rem 1.4rem;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: .3rem;
+  font-size: 1rem;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+section.section-Four .container-form button.form-button:hover {
+  padding: .6rem 1.7rem;
+  background-color: #007a00;
+}
+
+@media (max-width: 800px) {
+  .container-form {
+    width: 80%;
+  }
+  .container-form .form-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-form .form-container form textarea {
+    max-height: 7rem;
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=Form.css.map */

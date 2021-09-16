@@ -1,0 +1,91 @@
+section.section-one {
+    background-color: rgba(99, 92, 92, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    div.title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        p {
+            font-size: 20px;
+            color: green;
+            font-weight: bold;
+            
+        }
+        h1 {
+            color:rgb(53, 9, 156);
+            font-weight: bold;
+            font-size: 28px;
+            padding-top: .2rem;
+        }
+    }
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1.2rem;
+     .food {
+         background-color: white;
+         width: 400px;
+         height: 420px;
+         display: flex;
+         flex-direction: column;
+         margin: .8rem;
+         align-items: center;
+         justify-content: space-evenly;
+         box-shadow: 4px 4px 10px 10px rgba(99, 92, 92, 0.1);
+         border-radius: .3rem;
+         img {
+             height: 270px;
+             width: 300px;
+         }
+         h2 {
+             color:rgb(53, 9, 156);
+             font-weight: bold;
+             font-size: 20px;
+         }
+         div {
+             display: flex;
+             align-items: center;
+             p {
+                 font-size: 24px;
+                 color: rgb(9, 94, 9);
+                 font-weight: bold;
+             }
+             button {
+                 padding: .5rem 1.2rem;
+                 color: white;
+                 font-size: 17px;
+                 background-color: rgba(42, 22, 94, 0.938);
+                 border: none;
+                 outline: none;
+                 border-radius: .3rem;
+                 margin: 0 1rem ;
+                 transition: all .3s linear;
+                 cursor: pointer;
+
+                 &:hover {
+                    background-color: rgb(5, 82, 5);
+                    padding: .5rem 1.3rem;
+                    cursor: pointer;
+                 }
+                 
+             }
+             
+         }
+
+     }
+}
+$brak-point-three: 1500px;  
+@media (max-width: $brak-point-three) {
+   div.foods {
+       width : 90%;
+   }
+}
