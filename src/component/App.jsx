@@ -10,7 +10,7 @@ import "../App.css";
 const App = () => {
     
     return(
-        <>
+        <div className="appJs">
             <Navbar />
             <Main />
             <OurDishes />
@@ -19,7 +19,7 @@ const App = () => {
             <Menu />
             <Form />
             <Foooter />
-        </>
+        </div>
     )
 }
 export default App;

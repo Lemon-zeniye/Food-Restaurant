@@ -9,26 +9,32 @@ const ourfoods = [
     {
         img: img1,
         price: "16.99$", 
+        title: "Burger"
     },
     {
         img: img2,
         price: "14.99$", 
+        title: "Beef"
     },
     {
         img: img3,
         price: "17.99$", 
+        title: "Bufflo"
     },
     {
         img: img4,
         price: "13.99$", 
+        title: "Fishe"
     },
     {
         img: img5,
         price: "20.99$", 
+        title: "Rice"
     }, 
     {
         img: img6,
-        price: "10.99$", 
+        price: "10.99$",
+        title: "Stake" 
     }
 ];
 const OurDishes = () => {
@@ -44,7 +50,7 @@ const OurDishes = () => {
                     <div key={id} className="food">
                         
                         <img src={food.img} alt="" />
-                        <h2>Tasty Food</h2>
+                        <h2>{food.title}</h2>
                         <div>
                             <p>{food.price}</p>
                             <button>Add To Cart</button>

@@ -1,3 +1,5 @@
-/* * {
-   overflow-x: hidden;
-} */
+.appJs{
+   max-width: 1350px;
+   min-width: 600px;
+   margin: 0 auto;
+}
